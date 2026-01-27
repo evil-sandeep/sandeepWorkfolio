@@ -99,6 +99,31 @@
   width: 100%;
 }
 
+.resume-screen-container.scrollable {
+  overflow-y: auto;
+  justify-content: flex-start;
+  padding-right: 10px;
+}
+
+/* Custom scrollbar styling for projects section */
+.resume-screen-container.scrollable::-webkit-scrollbar {
+  width: 6px;
+}
+
+.resume-screen-container.scrollable::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.resume-screen-container.scrollable::-webkit-scrollbar-thumb {
+  background: #ff5823;
+  border-radius: 10px;
+}
+
+.resume-screen-container.scrollable::-webkit-scrollbar-thumb:hover {
+  background: #1f2235;
+}
+
 .resume-heading {
   display: flex;
   flex-direction: column;

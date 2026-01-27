@@ -72,6 +72,24 @@ const Resume = (props) => {
   ];
 
   const projectsDetails = [
+    
+    {
+      title: "Coffee Shop Web Application",
+      duration: { fromDate: "2024", toDate: "2024" },
+      description:
+        "A full-stack Coffee Shop web application where users can explore the weekly menu, view food items day-wise, add items to the cart, place orders, and proceed to checkout with address and payment flow. The application also includes an admin panel for managing menu items and orders.",
+      subHeading: "Technologies Used: MongoDB, Express JS, React JS, Node JS, Bootstrap",
+      url: "https://kgarhcafee.vercel.app/"
+    }
+    ,
+    {
+      title: "OneWarranty",
+      duration: { fromDate: "2025", toDate: "2025" },
+      description:
+        "A digital warranty management system that enables users to securely store bills, track warranty periods, and receive expiry notifications, making warranty handling simple and paperless.",
+      subHeading: "Technologies Used: MERN Stack, Tailwind",
+      url: 'https://onewarranty.vercel.app/'
+    },
     {
       title: "Personal Portfolio Website",
       duration: { fromDate: "2024", toDate: "2024" },
@@ -86,7 +104,7 @@ const Resume = (props) => {
         "Developed a robust MERN e-commerce platform featuring seamless payment integration for streamlined transactions, ensuring a smooth and secure shopping experience",
       subHeading:
         "Technologies Used:  React.js, Mongo DB, Express Js, Node Js, Redux.,Bootswatch",
-        url: 'https://easyshop-9a676ebc47a9.herokuapp.com'
+      url: 'https://easyshop-9a676ebc47a9.herokuapp.com'
     },
     {
       title: "YT Clone  ",
@@ -95,7 +113,7 @@ const Resume = (props) => {
         "Added video purchasing and single-character search for enhanced usability, with infinite scroll for smooth browsing in the YouTube clone project",
       subHeading:
         "Technologies Used: React Js, Redux, Tailwind CSS.",
-        url:'https://66214298da1f29081ba44dd5--fluffy-melomakarona-22fef0.netlify.app/'
+      url: 'https://66214298da1f29081ba44dd5--fluffy-melomakarona-22fef0.netlify.app/'
     },
   ];
 
@@ -131,6 +149,24 @@ const Resume = (props) => {
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
+
+
+
+        <ResumeHeading
+            heading={"District Civil & Sessions Court, Balasore"}
+            subHeading={"Amity Software Pvt. LTD "}
+            fromDate={"APRIL 2024"}
+            toDate={"PRESENT"}
+          />
+          <span className="resume-description-text">
+            •  Monitor and update security protocols to safeguard sensitive court data.
+            <br />
+            •Provide system administration and technical support for the Vulnerable Witness Deposition Complex (VWDC).<br />
+            •Collaborate with legal teams and court staff to address technical issues promptly.
+
+          </span>
+
+
         <ResumeHeading
           heading={"LIVEDIGITAL TECHNOLOGIES"}
           subHeading={"FRONTEND DEVELOPER INTERN"}
@@ -139,27 +175,14 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-          • Developed and implemented user interface components using React.js, ensuring adherence to well-known
-workflows like Redux.
+            • Developed and implemented user interface components using React.js, ensuring adherence to well-known
+            workflows like Redux.
+            <br />
+            • Proficient in developing dynamic web interfaces using React.js, with experience in component-based architecture
+            and React Router for navigation
           </span>
-        </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-          • Proficient in developing dynamic web interfaces using React.js, with experience in component-based architecture
-and React Router for navigation
-          </span>
-          <br />
-          <span className="resume-description-text">
-          • Collaborated with cross-functional teams on different layers of the infrastructure to achieve cohesive and
-high-quality applications.
-          </span>
-          <br />
-          <span className="resume-description-text">
-          • Owned and resolved complex JavaScript, ES6, and React coding challenges, contributing to successful product
-launches
 
-          </span>
-          <br />
+          
         </div>
       </div>
     </div>,
@@ -184,23 +207,23 @@ launches
     </div>,
 
     /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
-    {projectsDetails.map((project, index) => (
-      <div key={index}>
-        <ResumeHeading
-          heading={
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
-              {project.title}
-            </a>
-          }
-          subHeading={project.subHeading}
-          description={project.description}
-          fromDate={project.duration.fromDate}
-          toDate={project.duration.toDate}
-        />
-      </div>
-    ))}
-  </div>,
+    <div className="resume-screen-container scrollable" key="projects">
+      {projectsDetails.map((project, index) => (
+        <div key={index}>
+          <ResumeHeading
+            heading={
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                {project.title}
+              </a>
+            }
+            subHeading={project.subHeading}
+            description={project.description}
+            fromDate={project.duration.fromDate}
+            toDate={project.duration.toDate}
+          />
+        </div>
+      ))}
+    </div>,
 
     /* Interests */
     <div className="resume-screen-container" key="interests">
