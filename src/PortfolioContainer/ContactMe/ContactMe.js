@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Typical from "react-typical";
-import axios from "axios";
+import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
 
-import imgBack from "../../../src/images/mailz.jpeg";
-import load1 from "../../../src/images/load2.gif";
+import imgBack from "../../images/mailz.jpeg";
+import load1 from "../../images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -34,32 +34,50 @@ export default function ContactMe(props) {
   const handleMessage = (e) => {
     setMessage(e.target.value);
   };
-  console.log(name);
+
   const submitForm = async (e) => {
     e.preventDefault();
-    try {
-      let data = {
-        name,
-        email,
-        message,
-      };
-      setBool(true);
-      const res = await axios.post(`/contact`, data);
-      if (name.length === 0 || email.length === 0 || message.length === 0) {
-        setBanner(res.data.msg);
-        toast.error(res.data.msg);
-        setBool(false);
-      } else if (res.status === 200) {
-        setBanner(res.data.msg);
-        toast.success(res.data.msg);
-        setBool(false);
 
+    if (name.length === 0 || email.length === 0 || message.length === 0) {
+      setBanner("Please fill all the fields!");
+      toast.error("Please fill all the fields!");
+      return;
+    }
+
+    try {
+      setBool(true);
+
+      const templateParams = {
+        from_name: name,
+        from_email: email,
+        message: message,
+      };
+
+      // IMPORTANT: Replace these with your actual EmailJS credentials
+      // Sign up at https://www.emailjs.com/
+      const SERVICE_ID = "YOUR_SERVICE_ID";
+      const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
+      const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+
+      const res = await emailjs.send(
+        SERVICE_ID,
+        TEMPLATE_ID,
+        templateParams,
+        PUBLIC_KEY
+      );
+
+      if (res.status === 200) {
+        setBanner("Thank You For Contacting Mr. Sandeep");
+        toast.success("Thank You For Contacting Mr. Sandeep");
+        setBool(false);
         setName("");
         setEmail("");
         setMessage("");
       }
     } catch (error) {
       console.log(error);
+      setBool(false);
+      toast.error("Failed to send message. Please verify EmailJS IDs.");
     }
   };
 

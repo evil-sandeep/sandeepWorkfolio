@@ -7,11 +7,11 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
-import jaydev from "../../../src/assets/Testimonial/jaydev.png";
-import dipu from "../../../src/assets/Testimonial/dipu.png";
-import man from "../../../src/assets/Testimonial/man.png";
-import tomy from "../../../src/assets/Testimonial/tomy.png"
-import shape from "../../../src/img/Testimonial/shape-bg.png";
+import jaydev from "../../assets/Testimonial/jaydev.png";
+import dipu from "../../assets/Testimonial/dipu.png";
+import man from "../../assets/Testimonial/man.png";
+import tomy from "../../assets/Testimonial/tomy.png"
+import shape from "../../img/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -86,7 +86,7 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img src={dipu} alt="no internet connection"></img>
-                  <a href="https://www.linkedin.com/in/contact2deepak/"> <h5>Deepak Kumar Rout</h5></a> 
+                    <a href="https://www.linkedin.com/in/contact2deepak/"> <h5>Deepak Kumar Rout</h5></a>
                     <p>NIIS, BBSR (MCA)</p>
                   </div>
                 </div>

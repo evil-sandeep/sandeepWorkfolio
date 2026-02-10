@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bca7c3ff.chunk.css",
+    "main.js": "/static/js/main.797bdef8.chunk.js",
+    "main.js.map": "/static/js/main.797bdef8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ffc8b93.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ffc8b93.js.map",
+    "static/css/2.c81a2164.chunk.css": "/static/css/2.c81a2164.chunk.css",
+    "static/js/2.6e7a65d1.chunk.js": "/static/js/2.6e7a65d1.chunk.js",
+    "static/js/2.6e7a65d1.chunk.js.map": "/static/js/2.6e7a65d1.chunk.js.map",
+    "static/js/3.0ca2a706.chunk.js": "/static/js/3.0ca2a706.chunk.js",
+    "static/js/3.0ca2a706.chunk.js.map": "/static/js/3.0ca2a706.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c81a2164.chunk.css.map": "/static/css/2.c81a2164.chunk.css.map",
+    "static/css/main.bca7c3ff.chunk.css.map": "/static/css/main.bca7c3ff.chunk.css.map",
+    "static/js/2.6e7a65d1.chunk.js.LICENSE.txt": "/static/js/2.6e7a65d1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Poppins-Thin.a61eaf4c.ttf",
+    "static/media/Testimonial.css": "/static/media/bg-1.e7a118c3.jpg",
+    "static/media/Home.css": "/static/media/bg.f59aad8b.jpg",
+    "static/media/dipu.6b480d22.png": "/static/media/dipu.6b480d22.png",
+    "static/media/education.10cfa28a.svg": "/static/media/education.10cfa28a.svg",
+    "static/media/interests.809890a3.svg": "/static/media/interests.809890a3.svg",
+    "static/media/jaydev.031ab1e4.png": "/static/media/jaydev.031ab1e4.png",
+    "static/media/mailz.d13d5e32.jpeg": "/static/media/mailz.d13d5e32.jpeg",
+    "static/media/man.4b61dde6.png": "/static/media/man.4b61dde6.png",
+    "static/media/AboutMe.css": "/static/media/me.355b1a4d.jpg",
+    "static/media/programming-skills.d19983a9.svg": "/static/media/programming-skills.d19983a9.svg",
+    "static/media/projects.2b352a52.svg": "/static/media/projects.2b352a52.svg",
+    "static/media/Profile.css": "/static/media/sandeep.d74b35c6.png",
+    "static/media/tomy.1319858b.png": "/static/media/tomy.1319858b.png",
+    "static/media/work-history.a566475d.svg": "/static/media/work-history.a566475d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ffc8b93.js",
+    "static/css/2.c81a2164.chunk.css",
+    "static/js/2.6e7a65d1.chunk.js",
+    "static/css/main.bca7c3ff.chunk.css",
+    "static/js/main.797bdef8.chunk.js"
+  ]
+}
