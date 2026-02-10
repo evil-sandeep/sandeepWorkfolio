@@ -16,8 +16,7 @@ export default function ContactMe(props) {
     Animations.animations.fadeInScreen(props.id);
   };
 
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -48,16 +47,17 @@ export default function ContactMe(props) {
       setBool(true);
 
       const templateParams = {
-        from_name: name,
-        from_email: email,
+        name: name,
+        email: email,
         message: message,
+        title: `Portfolio Message from ${name}`,
       };
 
       // IMPORTANT: Replace these with your actual EmailJS credentials
       // Sign up at https://www.emailjs.com/
-      const SERVICE_ID = "YOUR_SERVICE_ID";
-      const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-      const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+      const SERVICE_ID = "service_vtanny4";
+      const TEMPLATE_ID = "template_0le7d1k";
+      const PUBLIC_KEY = "zgB6zxdyW_k8knpXz";
 
       const res = await emailjs.send(
         SERVICE_ID,
@@ -111,7 +111,7 @@ export default function ContactMe(props) {
         <div className="back-form">
           <div className="img-back">
             <h4>Send Your Email Here!</h4>
-            <img src={imgBack} alt="image not found" />
+            <img src={imgBack} alt="back form" />
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>
@@ -130,7 +130,7 @@ export default function ContactMe(props) {
                 <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">
-                    <img src={load1} alt="image not responding" />
+                    <img src={load1} alt="loading" />
                   </b>
                 ) : (
                   ""
