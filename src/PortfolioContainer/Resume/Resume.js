@@ -79,7 +79,7 @@ const Resume = (props) => {
       description:
         "A full-stack Coffee Shop web application where users can explore the weekly menu, view food items day-wise, add items to the cart, place orders, and proceed to checkout with address and payment flow. The application also includes an admin panel for managing menu items and orders.",
       subHeading: "Technologies Used: MongoDB, Express JS, React JS, Node JS, Bootstrap",
-      url: "https://kgarhcafee.vercel.app/"
+      url: "https://kgarhcafe.vercel.app/"
     }
     ,
     {
