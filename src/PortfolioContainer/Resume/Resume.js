@@ -79,19 +79,7 @@ const Resume = (props) => {
       description:
         "A full-stack Coffee Shop web application where users can explore the weekly menu, view food items day-wise, add items to the cart, place orders, and proceed to checkout with address and payment flow. The application also includes an admin panel for managing menu items and orders.",
       subHeading: "Technologies Used: MongoDB, Express JS, React JS, Node JS, Bootstrap",
-<<<<<<< HEAD
       url: "https://kgarhcafe.vercel.app/"
-=======
-      url: "https://kgarhcafee.vercel.app/"
-    },
-    {
-      title: "Brovanta SaaS Business Solution Platform",
-      duration: { fromDate: "2026 Jan", toDate: "2026 Feb" },
-      description:
-        "A fully customized SaaS web application developed for Brovanta to solve his core business operational challenges. The platform streamlines client management, service tracking, automated workflows, and performance monitoring. It includes secure user authentication, role-based dashboards, real-time analytics, and scalable architecture tailored specifically to client requirements.",
-      subHeading: "Technologies Used: MongoDB, Express JS, React JS, Node JS, Tailwind CSS, Redis, Cloudinary",
-      url: "https://www.brovanta.com/"
->>>>>>> 62075265 (add my all project , small to advance)
     }
     ,
     {
