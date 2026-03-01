@@ -72,19 +72,31 @@ const Resume = (props) => {
   ];
 
   const projectsDetails = [
-    
+
     {
       title: "Coffee Shop Web Application",
-      duration: { fromDate: "2024", toDate: "2024" },
+      duration: { fromDate: "2026 Jan", toDate: "Present" },
       description:
         "A full-stack Coffee Shop web application where users can explore the weekly menu, view food items day-wise, add items to the cart, place orders, and proceed to checkout with address and payment flow. The application also includes an admin panel for managing menu items and orders.",
       subHeading: "Technologies Used: MongoDB, Express JS, React JS, Node JS, Bootstrap",
+<<<<<<< HEAD
       url: "https://kgarhcafe.vercel.app/"
+=======
+      url: "https://kgarhcafee.vercel.app/"
+    },
+    {
+      title: "Brovanta SaaS Business Solution Platform",
+      duration: { fromDate: "2026 Jan", toDate: "2026 Feb" },
+      description:
+        "A fully customized SaaS web application developed for Brovanta to solve his core business operational challenges. The platform streamlines client management, service tracking, automated workflows, and performance monitoring. It includes secure user authentication, role-based dashboards, real-time analytics, and scalable architecture tailored specifically to client requirements.",
+      subHeading: "Technologies Used: MongoDB, Express JS, React JS, Node JS, Tailwind CSS, Redis, Cloudinary",
+      url: "https://www.brovanta.com/"
+>>>>>>> 62075265 (add my all project , small to advance)
     }
     ,
     {
       title: "OneWarranty",
-      duration: { fromDate: "2025", toDate: "2025" },
+      duration: { fromDate: "2025 Dec", toDate: "Present" },
       description:
         "A digital warranty management system that enables users to securely store bills, track warranty periods, and receive expiry notifications, making warranty handling simple and paperless.",
       subHeading: "Technologies Used: MERN Stack, Tailwind",
@@ -92,29 +104,112 @@ const Resume = (props) => {
     },
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2024", toDate: "2024" },
+      duration: { fromDate: "2025 Dec", toDate: "2026 Feb" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
       subHeading: "Technologies Used: React JS, Bootsrap",
     },
     {
       title: "EasyShop  ",
-      duration: { fromDate: "2023", toDate: "2024" },
+      duration: { fromDate: "2025 Aug", toDate: "2025 Dec" },
       description:
         "Developed a robust MERN e-commerce platform featuring seamless payment integration for streamlined transactions, ensuring a smooth and secure shopping experience",
       subHeading:
         "Technologies Used:  React.js, Mongo DB, Express Js, Node Js, Redux.,Bootswatch",
-      url: 'https://easyshop-9a676ebc47a9.herokuapp.com'
+      url: 'https://easyshop-seven.vercel.app/'
     },
     {
       title: "YT Clone  ",
-      duration: { fromDate: "2023", toDate: "2023" },
+      duration: { fromDate: "2025 Sep", toDate: "2025 Oct" },
       description:
         "Added video purchasing and single-character search for enhanced usability, with infinite scroll for smooth browsing in the YouTube clone project",
       subHeading:
         "Technologies Used: React Js, Redux, Tailwind CSS.",
       url: 'https://66214298da1f29081ba44dd5--fluffy-melomakarona-22fef0.netlify.app/'
     },
+    {
+      title: "Bhookaed Shopping App",
+      duration: { fromDate: "2024 Jun", toDate: "2025 Jun" },
+      description:
+        "Bhookaed is an engaging React-based e-commerce application designed to deliver a seamless and interactive shopping experience. The platform features real-time order status indicators, smooth cart management, personalized user interactions, and optimized UI performance. To enhance user engagement, it also includes offline entertainment features like a built-in Tic-Tac-Toe game, ensuring users stay connected and entertained even during idle moments.",
+      subHeading: "Technologies Used: React JS, JavaScript (ES6+), CSS3, REST APIs, Context API, Responsive Design",
+      url: "https://660285d4ed368cba58b09bb1--starlit-twilight-327931.netlify.app/"
+    }, {
+      title: "Interactive Calendar Web Application",
+      duration: { fromDate: "2024 April", toDate: "2024 April" },
+      description:
+        "A fully interactive and responsive Calendar web application designed to help users efficiently manage schedules and events. The application allows users to add, edit, and delete events directly within the calendar interface. It ensures seamless usability across devices and stores event data using local storage for persistent access without backend dependency.",
+      subHeading: "Technologies Used: HTML5, CSS3, JavaScript (ES6), Local Storage API, Responsive Design",
+      url: "https://evil-sandeep.github.io/Calender/"
+    }, {
+      title: "Interactive SignUp Form Application",
+      duration: { fromDate: "2024 March", toDate: "2024 March" },
+      description:
+        "An engaging and visually appealing SignUp Form web application featuring smooth interactive transitions from a landing page to the authentication interface. The platform allows users to choose preferred signup options such as Facebook, Instagram, or LinkedIn, offering flexibility and convenience. The form dynamically adapts to user selections, ensuring a seamless and intuitive onboarding experience across all devices.",
+      subHeading: "Technologies Used: HTML5, CSS3, JavaScript (ES6), Responsive Design, UI/UX Animation",
+      url: "https://evil-sandeep.github.io/SignUp-Form/"
+    }, {
+      title: "Bouncing Ball Interactive Animation",
+      duration: { fromDate: "2024 Jan", toDate: "2024 Jan" },
+      description:
+        "A visually engaging web animation project featuring a dynamic bouncing ball as the central interactive element. The animation enhances user engagement by creating a playful and responsive experience — when a square element collides with the ball, it triggers a smooth and delightful jumping effect. This project demonstrates creative UI interaction design and seamless integration of animation logic using front-end technologies.",
+      subHeading: "Technologies Used: HTML5, CSS3 (Animations & Transitions), JavaScript (DOM Manipulation, Event Handling)",
+      url: "https://evil-sandeep.github.io/Ball-Animation/"
+    },
+    {
+      title: "College Website – Responsive Institutional Web Platform",
+      duration: { fromDate: "2023 Dec", toDate: "2023 Dec" },
+      description:
+        "A visually appealing and fully responsive college website developed to provide detailed institutional information in an engaging format. The platform features a stylish navigation bar with college branding, animated cursor effects, structured course information sections, interactive map integration for easy navigation, and a user-friendly contact letterbox for direct communication. The footer includes quick access links for enhanced usability, ensuring both aesthetic appeal and functional efficiency across all devices.",
+      subHeading: "Technologies Used: HTML5, CSS3, Bootstrap, JavaScript, Responsive Web Design",
+      url: "https://evil-sandeep.github.io/Coolage-Site/"
+    },
+    {
+      title: "Notepad Application – Local Storage Based Notes Manager",
+      duration: { fromDate: "2023 Nov", toDate: "2023 Nov" },
+      description:
+        "A lightweight and user-friendly Notepad web application that allows users to create, save, and manage unlimited notes efficiently. Upon launching the app, users are presented with a blank note interface and can generate additional notes using the 'Add Note' feature. Notes can be saved directly to local storage, ensuring data persistence even after page refresh. The application also includes a 'Trash' functionality that permanently removes unwanted notes, maintaining clean and organized storage.",
+      subHeading: "Technologies Used: HTML5, CSS3, JavaScript (ES6), Local Storage API, DOM Manipulation, Responsive Design",
+      url: "https://evil-sandeep.github.io/Notepad/"
+    },
+    {
+      title: "To-Do List Application – Task Management with Animated UI",
+      duration: { fromDate: "2023 Oct", toDate: "2023 Oct" },
+      description:
+        "A dynamic and visually engaging To-Do List web application designed to help users manage daily tasks efficiently. The app allows users to add pending tasks, mark them as completed, and remove them instantly using an intuitive checkbox and delete system. To enhance user experience, the interface features RGB light animation effects, creating a modern and attractive visual design while maintaining smooth task management functionality.",
+      subHeading: "Technologies Used: HTML5, CSS3 (RGB Animation Effects), JavaScript (ES6), DOM Manipulation, Responsive Design",
+      url: "https://evil-sandeep.github.io/To-Do-List-App/"
+    }, {
+      title: "MCQ Quiz Application – Interactive Learning Platform",
+      duration: { fromDate: "2023 Sep", toDate: "2023 Sep" },
+      description:
+        "An interactive MCQ Quiz web application designed to enhance learning and user engagement through structured assessments. The app features a collection of JavaScript multiple-choice questions with instant feedback, highlighted correct answers, and a detailed scorecard at the end of each quiz session. Built with a clean and vibrant interface, the application ensures a smooth and responsive experience across devices while promoting effective knowledge evaluation.",
+      subHeading: "Technologies Used: HTML5, CSS3, JavaScript (ES6), DOM Manipulation, Responsive Design",
+      url: "https://evil-sandeep.github.io/Quizz-app/"
+    },
+    {
+      title: "Drum Kit Web Application – Interactive Sound Experience",
+      duration: { fromDate: "2023 Aug", toDate: "2023 Aug" },
+      description:
+        "An interactive Drum Kit web application that allows users to create rhythmic beats using either keyboard inputs or touch screen interactions. Each key press or tap triggers a unique drum sound, delivering a responsive and immersive audio experience. Designed for entertainment and creative exploration, the project demonstrates real-time event handling, sound integration, and engaging user interface interactions.",
+      subHeading: "Technologies Used: HTML5, CSS3, JavaScript (ES6), Audio API, Event Listeners, DOM Manipulation",
+      url: "https://evil-sandeep.github.io/Drum-Kit-/"
+    }, {
+      title: "Dice Game – Randomized Outcome Web Application",
+      duration: { fromDate: "2023 Jul", toDate: "2023 Jul" },
+      description:
+        "A simple yet engaging Dice Game web application built using front-end technologies. The game automatically generates random dice values upon page refresh and determines the winner instantly. This project demonstrates the implementation of random number generation, DOM manipulation, and dynamic UI updates to create an interactive and entertaining user experience.",
+      subHeading: "Technologies Used: HTML5, CSS3, JavaScript (ES6), Random Number Generation, DOM Manipulation",
+      url: "https://evil-sandeep.github.io/Dice-Game-/"
+    },
+    {
+      title: "We Are Brothers – Themed Static Website",
+      duration: { fromDate: "2023 Jun", toDate: "2023 Jun" },
+      description:
+        "A creatively designed static website built to represent the theme 'We Are Brothers'. The project focuses on clean layout structure, visual storytelling, and responsive design principles. It highlights structured content sections, engaging typography, and aesthetic styling to deliver a meaningful and visually appealing web experience.",
+      subHeading: "Technologies Used: HTML5, CSS3, JavaScript, Responsive Web Design",
+      url: "https://evil-sandeep.github.io/We-Are-Brothers/"
+    }
   ];
 
   const resumeDetails = [
@@ -153,18 +248,18 @@ const Resume = (props) => {
 
 
         <ResumeHeading
-            heading={"District Civil & Sessions Court, Balasore"}
-            subHeading={"Amity Software Pvt. LTD "}
-            fromDate={"APRIL 2024"}
-            toDate={"PRESENT"}
-          />
-          <span className="resume-description-text">
-            •  Monitor and update security protocols to safeguard sensitive court data.
-            <br />
-            •Provide system administration and technical support for the Vulnerable Witness Deposition Complex (VWDC).<br />
-            •Collaborate with legal teams and court staff to address technical issues promptly.
+          heading={"District Civil & Sessions Court, Balasore"}
+          subHeading={"Amity Software Pvt. LTD "}
+          fromDate={"APRIL 2024"}
+          toDate={"PRESENT"}
+        />
+        <span className="resume-description-text">
+          •  Monitor and update security protocols to safeguard sensitive court data.
+          <br />
+          •Provide system administration and technical support for the Vulnerable Witness Deposition Complex (VWDC).<br />
+          •Collaborate with legal teams and court staff to address technical issues promptly.
 
-          </span>
+        </span>
 
 
         <ResumeHeading
@@ -182,7 +277,7 @@ const Resume = (props) => {
             and React Router for navigation
           </span>
 
-          
+
         </div>
       </div>
     </div>,
