@@ -83,7 +83,7 @@ const Resume = (props) => {
     },
     {
       title: "Brovanta SaaS Business Solution Platform",
-      duration: { fromDate: "2025", toDate: "Present" },
+      duration: { fromDate: "2026 Jan", toDate: "2026 Feb" },
       description:
         "A fully customized SaaS web application developed for Brovanta to solve his core business operational challenges. The platform streamlines client management, service tracking, automated workflows, and performance monitoring. It includes secure user authentication, role-based dashboards, real-time analytics, and scalable architecture tailored specifically to client requirements.",
       subHeading: "Technologies Used: MongoDB, Express JS, React JS, Node JS, Tailwind CSS, Redis, Cloudinary.",
