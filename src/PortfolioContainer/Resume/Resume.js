@@ -91,6 +91,28 @@ const Resume = (props) => {
     }
     ,
     {
+      title: "Docify – PDF & Image Editing SaaS Platform",
+      duration: { fromDate: "2025", toDate: "Present" },
+      description:
+        "Docify is a versatile web-based document management platform that enables users to edit, optimize, and transform both PDF files and images with ease. The application provides powerful utilities such as PDF merging, splitting, editing, compressing, and resizing. For images, users can remove backgrounds, adjust dimensions, enhance resolution, and convert images to PDF seamlessly. Designed with a focus on performance and usability, Docify delivers a smooth and efficient document processing experience for individuals and businesses.",
+      subHeading: "Technologies Used: React JS, Node JS, Express JS, PDF Processing Libraries, Image Processing APIs, Tailwind CSS, Vercel Deployment",
+      url: "https://onepdf-omega.vercel.app/"
+    }, {
+      title: "Advocate Portfolio Website – Professional Legal Presence",
+      duration: { fromDate: "2025 Nov", toDate: "2026 Jan" },
+      description:
+        "A professionally designed portfolio website developed for an advocate to establish a strong and credible digital presence. The platform highlights legal expertise, practice areas, case focus, client communication channels, and professional achievements. The website is fully responsive, optimized for performance, and structured to build trust with potential clients. Ongoing maintenance and feature enhancements are provided based on client requirements to ensure continuous improvement and relevance.",
+      subHeading: "Technologies Used: React JS, Tailwind CSS, Responsive Design, Vercel Deployment, SEO Optimization",
+      url: "https://prabhat-khandelwal.vercel.app/"
+    }, {
+      title: "AI Home Design – Intelligent Dream House Generator",
+      duration: { fromDate: "2025", toDate: "Present" },
+      description:
+        "AI Home Design is an AI-powered web application that generates personalized dream house concepts based on user preferences. The system interacts with users by asking lifestyle and design-related questions, then intelligently creates customized house blueprints, exterior visuals, interior color themes, and modern architectural concepts. By combining AI-driven design logic with a responsive and user-friendly interface, the platform delivers a unique and tailored home visualization experience.",
+      subHeading: "Technologies Used: React JS, Node JS, Express JS, AI Integration (Prompt Engineering), Image Generation API, Tailwind CSS, Vercel Deployment",
+      url: "https://aihomedesign-smoky.vercel.app/"
+    },
+    {
       title: "OneWarranty",
       duration: { fromDate: "2025 Dec", toDate: "Present" },
       description:
